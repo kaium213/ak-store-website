@@ -1,4 +1,4 @@
-<! AKSTORE> 
+<!AKSTORE!>
 <html lang="bn">
 <head>
 <meta charset="utf-8">
@@ -49,7 +49,7 @@ let lang = "bn";
 let category = "all";
 // নমুনা পণ্য: প্রকাশের আগে নিজের পণ্যের নাম, দাম, বিবরণ ও ছবি আপডেট করুন।
 const products = [
- {id:1,cat:"gadgets",1792681766953.jpg,,name_bn:"AirPods — ",name_en:"Mini messenger gun— Black",desc_bn:"গ্যাজেট।",desc_en:"Mini messenger gun gadget.",price:999,tag_bn:"জনপ্রিয়",tag_en:"Popular"},
+ {id:1,cat:"gadgets",1792681766953 ,,name_bn:"AirPods — ",name_en:"Mini messenger gun— Black",desc_bn:"গ্যাজেট।",desc_en:"Mini messenger gun gadget.",price:999,tag_bn:"জনপ্রিয়",tag_en:"Popular"},
  {id:2,cat:"clothing",emoji:"👕",name_bn:"ক্যাজুয়াল টি-শার্ট",name_en:"Casual T-Shirt",desc_bn:"দৈনন্দিন ব্যবহারের পোশাক।",desc_en:"Everyday casual wear.",price:450,tag_bn:"পোশাক",tag_en:"Fashion"},
  {id:3,cat:"gadgets",emoji:"⌚",name_bn:"স্মার্ট ওয়াচ",name_en:"Smart Watch",desc_bn:"স্টাইলিশ ঘড়ি—বিস্তারিত জানতে মেসেজ দিন।",desc_en:"Stylish watch. Message for details.",price:1200,tag_bn:"গ্যাজেট",tag_en:"Gadget"},
  {id:4,cat:"clothing",emoji:"🧥",name_bn:"ক্যাজুয়াল শার্ট",name_en:"Casual Shirt",desc_bn:"স্টাইল ও আরামের জন্য।",desc_en:"Made for everyday style and comfort.",price:650,tag_bn:"নতুন",tag_en:"New"},
