@@ -49,7 +49,41 @@ let lang = "bn";
 let category = "all";
 // নমুনা পণ্য: প্রকাশের আগে নিজের পণ্যের নাম, দাম, বিবরণ ও ছবি আপডেট করুন।
 const products = [
- {id:1,cat:"gadgets",emoji:"1792681766953.jpg ",name_bn:"Mini messenger gun— কালো",name_en:"mini massager gun— Black",desc_bn:"গ্যাজেট।",desc_en:"gadget.",price:999,tag_bn:"জনপ্রিয়",tag_en:"Popular"},
+ <!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SL-720 Mini Massager Gun - AK STORE</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Hind Siliguri', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-gray-800/90 backdrop-blur border-b border-amber-500/30 sticky top-0 z-50 shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-amber-500 text-black flex items-center justify-center font-bold text-xl border-2 border-amber-300">
+          AK
+        </div>
+        <span class="text-xl font-bold tracking-wider text-amber-400">AK STORE</span>
+      </div>
+      <a href="#order-form" class="bg-amber-500 hover:bg-amber-600 text-black font-bold px-4 py-2 rounded-lg text-sm transition duration-300 flex items-center gap-2">
+        <i class="fa-solid fa-cart-shopping"></i> অর্ডার করুন
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-12"
  {id:2,cat:"clothing",emoji:"👕",name_bn:"ক্যাজুয়াল টি-শার্ট",name_en:"Casual T-Shirt",desc_bn:"দৈনন্দিন ব্যবহারের পোশাক।",desc_en:"Everyday casual wear.",price:450,tag_bn:"পোশাক",tag_en:"Fashion"},
  {id:3,cat:"gadgets",emoji:"⌚",name_bn:"স্মার্ট ওয়াচ",name_en:"Smart Watch",desc_bn:"স্টাইলিশ ঘড়ি—বিস্তারিত জানতে মেসেজ দিন।",desc_en:"Stylish watch. Message for details.",price:1200,tag_bn:"গ্যাজেট",tag_en:"Gadget"},
  {id:4,cat:"clothing",emoji:"🧥",name_bn:"ক্যাজুয়াল শার্ট",name_en:"Casual Shirt",desc_bn:"স্টাইল ও আরামের জন্য।",desc_en:"Made for everyday style and comfort.",price:650,tag_bn:"নতুন",tag_en:"New"},
